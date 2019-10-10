@@ -1,0 +1,74 @@
+﻿<Window x:Class="WpfApp3.NaploNyito"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="NyitóNapló" Height="450" Width="800" ResizeMode="NoResize">
+    <Window.Resources>
+        <Color x:Key="gombszine">#FF850000</Color>
+    </Window.Resources>
+    <Grid Margin="0,0,-6,-1" HorizontalAlignment="Left" Width="800">
+        <Grid.Background>
+            <SolidColorBrush Color="{DynamicResource 12}"/>
+        </Grid.Background>
+        <Label Content="Nyitás Dátuma:" HorizontalAlignment="Left" Margin="20,8,0,0" VerticalAlignment="Top" Width="115" FontFamily="Arial Rounded MT Bold"/>
+        <DatePicker  x:Name="date" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="elso" HorizontalAlignment="Left" Height="23" Margin="20,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"/>
+        <TextBox x:Name="negyedik" HorizontalAlignment="Left" Height="23" Margin="101,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" />
+        <Button x:Name="KivalasztSzamla" Content="Kiválaszt" HorizontalAlignment="Left" Margin="255,61,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="#FFCFDEF8"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Tartozik" HorizontalAlignment="Left" Margin="20,34,0,0" VerticalAlignment="Top" Width="65" FontFamily="Arial Rounded MT Bold"/>
+        <Label Content="Követel" HorizontalAlignment="Left" Margin="20,119,0,0" VerticalAlignment="Top" Width="60" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox x:Name="tosszeg" HorizontalAlignment="Left" Height="26" Margin="20,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="kosszeg" HorizontalAlignment="Left" Height="29" Margin="20,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <DataGrid x:Name="tetelek"  HorizontalAlignment="Left" Height="161" Margin="20,235,0,0" VerticalAlignment="Top" Width="615" AutoGenerateColumns="false" SelectionChanged="tetelek_SelectionChanged" IsSynchronizedWithCurrentItem="False">
+            <DataGrid.Columns>
+
+                <DataGridTextColumn x:Name="t" Header="Tartozik"/>
+                <DataGridTextColumn x:Name="k" Header="Követel"/>
+                <DataGridTextColumn x:Name="partkod" Header="PartnerKód"/>
+
+                <DataGridTextColumn x:Name="part" Header="Partner"/>
+
+
+                <DataGridTextColumn x:Name="megn" Header="Megnevezés"/>
+                <DataGridTextColumn x:Name="Tossz" Header="T.Összeg"/>
+
+                <DataGridTextColumn x:Name="Kossz" Header="K.Összeg"/>
+                <DataGridTextColumn x:Name="datum" Header="Dátum"/>
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Button Content="Kilépés" HorizontalAlignment="Left" Margin="696,382,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2" Background="#FFCFDEF8" FontFamily="Arial Rounded MT Bold" RenderTransformOrigin="0.52,0.1"/>
+        <Button x:Name="ment" Content="Mentés" HorizontalAlignment="Left" Margin="670,263,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_8" Background="#FFCFDEF8" FontFamily="Arial Rounded MT Bold"/>
+        <Button x:Name="torl" Content="Törlés" HorizontalAlignment="Left" Margin="670,290,0,0" VerticalAlignment="Top" Width="75" Click="torl_Click" Background="#FFCFDEF8" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox x:Name="masodik" HorizontalAlignment="Left" Height="23" Margin="101,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="harmadik" HorizontalAlignment="Left" Height="23" Margin="20,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"/>
+        <Button Content="Tétel felvétel" HorizontalAlignment="Left" Margin="670,236,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" FontFamily="Arial Rounded MT Bold" FontSize="11">
+            <Button.Background>
+                <SolidColorBrush Color="#FFCFDEF8"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Kiválaszt" HorizontalAlignment="Left" Margin="255,150,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3" Background="#FFCFDEF8" FontFamily="Arial Rounded MT Bold"/>
+        <Button Content="+" x:Name="hozzad1" HorizontalAlignment="Left" Margin="231,60,0,0" VerticalAlignment="Top" Width="19" Height="23" RenderTransformOrigin="0.381,-0.101" Click="Button_Click_4" Background="#FFCFDEF8"/>
+        <Button Content="+" x:Name="hozzad2" HorizontalAlignment="Left" Margin="231,150,0,0" VerticalAlignment="Top" Width="19" Click="Button_Click_5" Height="22" Background="#FFCFDEF8"/>
+        <TextBox x:Name="pnev" HorizontalAlignment="Left" Height="23" Margin="307,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Partner&#xD;&#xA;" HorizontalAlignment="Left" Margin="458,207,0,0" VerticalAlignment="Top" Width="75" Height="22" Click="Button_Click_6" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="pkod" HorizontalAlignment="Left" Height="23" Margin="231,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="432,207,0,0" VerticalAlignment="Top" Width="21" Click="Button_Click_7" Background="#FFCFDEF8"/>
+        <Label Content="Tartozik" HorizontalAlignment="Left" Margin="468,96,0,0" VerticalAlignment="Top" Width="65" FontFamily="Arial Rounded MT Bold"/>
+        <Label Content="Követel" HorizontalAlignment="Left" Margin="653,96,0,0" VerticalAlignment="Top" Width="59" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox x:Name="VegosszegT" HorizontalAlignment="Left" Height="33" Margin="440,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="VegosszegK" HorizontalAlignment="Left" Height="33" Margin="618,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

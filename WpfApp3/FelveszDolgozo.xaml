@@ -1,0 +1,74 @@
+﻿<Window x:Class="WpfApp3.FelveszDolgozo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Dolgozók Felvétele" Height="450" Width="600" ResizeMode="NoResize">
+    <Grid HorizontalAlignment="Left" Width="600" Margin="0,0,-6,-4">
+        <Grid.Background>
+            <SolidColorBrush Color="{DynamicResource 12}"/>
+        </Grid.Background>
+        <Label Content="Dolgozó Neve:" HorizontalAlignment="Left" Margin="9,9,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.077" FontFamily="Arial Rounded MT Bold">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.066"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Címe:" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" Width="88" FontFamily="Arial Rounded MT Bold"/>
+        <Label Content="Adóazonító szám:" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.184,0.423" Width="112" FontFamily="Arial Rounded MT Bold"/>
+        <Label Content="TAJ-Szám" HorizontalAlignment="Left" Margin="10,199,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.263,0.077" Width="88" FontFamily="Arial Rounded MT Bold"/>
+        <Label Content="Bankszámla :&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Height="25" Width="88" FontFamily="Arial Rounded MT Bold"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="10,260,0,0" VerticalAlignment="Top" Width="88" FontFamily="Arial Rounded MT Bold"/>
+        <Label Content="Felvétel Ideje:" HorizontalAlignment="Left" Margin="10,291,0,0" VerticalAlignment="Top" Width="88" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox x:Name="dolgozoNeve" HorizontalAlignment="Left" Height="23" Margin="127,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="cime" HorizontalAlignment="Left" Height="23" Margin="127,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="adoszama" HorizontalAlignment="Left" Height="23" Margin="127,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox  x:Name="tajszama" HorizontalAlignment="Left" Height="23" Margin="127,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="banksz" HorizontalAlignment="Left" Height="23" Margin="127,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Height="23" Margin="127,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Születési Idő:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="88" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox x:Name="szulIdo" HorizontalAlignment="Left" Height="23" Margin="127,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Születési Hely:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="99" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox x:Name="szulHely" HorizontalAlignment="Left" Height="23" Margin="127,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Anyja Neve:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="88" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox x:Name="anyjaNeve" HorizontalAlignment="Left" Height="23" Margin="127,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <DatePicker x:Name="felvetelIdeje" HorizontalAlignment="Left" Margin="127,291,0,0" VerticalAlignment="Top"/>
+        <Label Content="Havi Bruttó Bér" HorizontalAlignment="Left" Margin="335,13,0,0" VerticalAlignment="Top" Width="114" Height="23" FontFamily="Arial Rounded MT Bold">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="haviber" HorizontalAlignment="Left" Height="23" Margin="449,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="felv" Content="Felvétel" HorizontalAlignment="Left" Margin="10,383,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Jogviszony" HorizontalAlignment="Left" Margin="10,325,0,0" VerticalAlignment="Top" Width="88" FontFamily="Arial Rounded MT Bold"/>
+        <ComboBox x:Name="jogviszonyValaszt" HorizontalAlignment="Left" Margin="127,325,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="jogviszonyValaszt_SelectionChanged">
+            <ComboBox.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </ComboBox.Background>
+            <ComboBoxItem Content="Főállású"></ComboBoxItem>
+            <ComboBoxItem Content="Egyszerűsített"></ComboBoxItem>
+
+        </ComboBox>
+        <Button x:Name="mod" Content="Módosít" HorizontalAlignment="Left" Margin="172,383,0,0" VerticalAlignment="Top" Width="75" Click="mod_Click" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Kilépés" HorizontalAlignment="Left" Margin="494,383,0,0" VerticalAlignment="Top" Width="75" FontFamily="Arial Rounded MT Bold" Click="Button_Click_3">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

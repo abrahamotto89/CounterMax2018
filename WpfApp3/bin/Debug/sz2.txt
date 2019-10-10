@@ -1,0 +1,682 @@
+﻿BEFEKTETETT ESZKÖZÖK
+IMMATERIÁLIS JAVAK
+Alapítás-átszervezés aktivált értéke
+Kísérleti fejlesztés aktivált értéke
+Vagyoni értéku jogok
+Szellemi termékek
+Üzleti vagy cégérték
+Immateriális javak értékhelyesbítése
+Immateriális javak terven felüli értékcsökkenése és annak visszaírása
+Immateriális javak terv szerinti értékcsökkenése
+Alapítás-átszervezés aktivált értékének értékcsökkenése
+Kísérleti fejlesztés aktivált értékének értékcsökkenése
+Vagyoni értéku jogok értékcsökkenése
+Szellemi termékek értékcsökkenése
+INGATLANOK ÉS KAPCSOLÓDÓ VAGYONI ÉRTÉKU JOGOK
+Földterület
+Telek, telkesítés
+Épületek, épületrészek, tulajdoni hányadok
+Egyéb építmények
+Üzemkörön kívüli ingatlanok, épületek
+Ingatlanokhoz kapcsolódó vagyoni értéku jogok
+Ingatlanok értékhelyesbítése
+Ingatlanok terven felüli értékcsökkenése és annak visszaírása
+Ingatlanok terv szerinti értékcsökkenése
+MUSZAKI BERENDEZÉSEK, GÉPEK, JÁRMUVEK
+Termelo gépek, berendezések, szerszámok, gyártóeszközök
+Termelésben közvetlenül részt vevo jármuvek
+Muszaki berendezések, gépek, jármuvek értékhelyesbítése
+Muszaki berend., gépek, jármuvek terv. f. értékcsökk. és visszaírása
+Muszaki berendezések, gépek, jármuvek terv szerinti értékcsökkenése
+EGYÉB BERENDEZÉSEK, FELSZERELÉSEK, JÁRMUVEK
+Üzemi (üzleti) gépek, berendezések, felszerelések
+Egyéb jármuvek
+Irodai, igazgatási berendezések és felszerelések
+Üzemkörön kívüli berendezések, felszerelések, jármuvek
+Egyéb berendezések, felszerelések, jármuvek értékhelyesbítése
+Egyéb berend., felsz., jármuvek terv. f. értékcsökk. és visszaírása
+Egyéb berendezések, felszerelések, jármuvek terv szerinti értékcsökk.
+TENYÉSZÁLLATOK
+Tenyészállatok
+Igásállatok
+Egyéb állatok
+Tenyészállatok értékhelyesbítése
+Tenyészállatok terven felüli értékcsökkenése és annak visszaírása
+Tenyészállatok terv szerinti értékcsökkenése
+BERUHÁZÁSOK, FELÚJÍTÁSOK
+Befejezetlen beruházások
+Felújítások
+Beruházások terven felüli értékcsökkenése
+TULAJDONI RÉSZESEDÉST JELENTO BEFEKTETÉSEK (RÉSZESEDÉSEK)
+Tartós részesedés kapcsolt vállalkozásban
+Egyéb tartós részesedés
+Részesedések értékhelyesbítése
+Részesedések értékvesztése és annak visszaírása
+Tartós részesedés értékvesztése és visszaírása kapcsolt vállalkozásban
+Egyéb tartós részesedés értékvesztése és visszaírása
+HITELVISZONYT MEGTESTESÍTO ÉRTÉKPAPÍROK
+Államkötvények
+Kapcsolt vállalkozások értékpapírjai
+Egyéb vállalkozások értékpapírjai
+Tartós diszkontértékpapírok
+Értékpapírok értékvesztése és annak visszaírása
+TARTÓSAN ADOTT KÖLCSÖNÖK
+Tartósan adott kölcsönök kapcsolt vállalkozásban
+Tartósan adott kölcsönök egyéb részesedési viszonyban álló vállalk.
+Egyéb tartósan adott kölcsönök
+Pénzügyi lízing miatti tartós követelések
+Tartós bankbetétek kapcsolt vállalkozásban
+Tartós bankbetétek egyéb részesedési viszonyban álló vállalkozásban
+Egyéb tartós bankbetétek
+Pénzügyi lízing miatti tartós követelés
+Tartósan adott kölcsönök, bankbetétek értékvesztése és visszaírása
+Tartósan adott kölcsönök értékvesztése és visszaírása kapcsoltváll-ban
+Tart. adott kölcs-k év-e és visszaí-a egyéb rész-i visz-ban álló váll.
+Egyéb tartósan adott kölcsönök értékvesztése és visszaírása
+Tartós bankbet-k év-e és visszaí-a kapcsolt vállalkozásban
+Tartós bankbetétek év-e és visszaí-a egyéb rész-i visz-ban álló v-ban
+Egyéb tartós bankbetétek értékvesztése és visszaírása
+KÉSZLETEK
+Nyers- és alapanyagok
+Alapanyagok
+Anyagok
+Segédanyagok
+Üzem- és futoanyagok
+Fenntartási anyagok
+Építési anyagok
+Egy éven belül elhasználódó anyagi eszközök
+Tárgyi eszközök közül átsorolt anyagok
+Egyéb anyagok
+Anyagok árkülönbözete
+Anyagok értékvesztése és annak visszaírása
+BEFEJEZETLEN TERMELÉS ÉS FÉLKÉSZ TERMÉKEK
+Befejezetlen termelés
+Félkész termékek
+Félkész termékek készletérték-különbözete
+Befejezetlen termelés, félkész termékek értékvesztése és visszaírása
+NÖVENDÉK, HÍZÓ- ÉS EGYÉB ÁLLATOK
+Növendék állatok
+Hízóállatok
+Egyéb állatok
+Bérbe vett állatok
+Állatok készletérték-különbözete
+Állatok értékvesztése és annak visszaírása
+KÉSZTERMÉKEK
+Késztermékek
+Késztermékek készletérték-különbözete
+Késztermékek értékvesztése és annak visszaírása
+KERESKEDELMI ÁRUK
+Áruk beszerzési áron
+Áruk elszámolóáron
+Áruk árkülönbözete
+Áruk eladási áron
+Áruk árrése
+Idegen helyen tárolt, bizományba átadott áruk
+Tárgyi eszközök közül átsorolt áruk
+Belso (egységek, tevékenységek közötti) átadás-átvétel ütközoszámla
+Kereskedelmi áruk értékvesztése és annak visszaírása
+KÖZVETÍTETT SZOLGÁLTATÁSOK
+Közvetített szolgáltatások
+Közvetített szolgáltatások értékvesztése és annak visszaírása
+BETÉTDÍJAS GÖNGYÖLEGEK
+Betétdíjas göngyölegek
+Betétdíjas göngyölegek árkülönbözete
+Betétdíjas göngyölegek értékvesztése és annak visszaírása
+KÖVETELÉSEK, PÉNZÜGYI ESZKÖZÖK ÉS AKTÍV IDOBELI ELHATÁROLÁSOK
+KÖVETELÉSEK ÁRUSZÁLLÍTÁSBÓL ÉS SZOLGÁLTATÁSBÓL (VEVOK)
+Belföldi követelések (forintban)
+Belföldi követelések (devizában)
+Belföldi követelések értékvesztése és annak visszaírása
+Külföldi követelések (forintban)
+Külföldi követelések (devizában)
+Külföldi követelések értékvesztése és annak visszaírása
+KÖVETELÉSEK KAPCSOLT VÁLLALKOZÁSSAL SZEMBEN
+Követelések az anyavállalattal szemben
+Követelések a leányvállalattal szemben
+Követelések a közös vezetésu vállalkozással szemben
+Követelések a társult vállalkozással szemben
+Jegyzett, de még be nem fizetett toke az anyavállalattól
+Jegyzett, de még be nem fizetett toke a leányvállalattól
+Jegyzett, de még be nem fizetett toke a közös vezetésu vállalkozástól
+Jegyzett, de még be nem fizetett toke a társult vállalkozástól
+Kapcsolt vállalk. szembeni követelések értékvesztése és visszaírása
+KÖVETELÉSEK EGYÉB RÉSZESEDÉSI VISZONYBAN LÉVO VÁLLALKOZÁSSAL SZEMBEN
+Követelések egyéb részesedési viszonyban lévo vállalkozással szemben
+Jegyzett, be nem fiz. toke az egyéb részesedési visz. vállalkozástól
+Egyéb rész. visz. lévo vállalk. szemben köv. értékveszt., visszaírása
+VÁLTÓKÖVETELÉSEK
+Belföldi váltókövetelések
+Belföldi váltókövetelések értékvesztése és annak visszaírása
+Külföldi váltókövetelések
+Külföldi váltókövetelések értékvesztése és annak visszaírása
+ADOTT ELOLEGEK
+Immateriális javakra adott elolegek
+Beruházásokra adott elolegek
+Készletekre adott elolegek
+Jegyzett, be nem fiz. toke részesedési visz. nem lévo vállalkozástól
+Adott elolegek értékvesztése és visszaírása
+Immat.javakra adott elolegek értékvesztése és visszaírása
+Beruházásra adott eloleg értékvsztése és visszaírása
+Készletekre adott elolegek értékvesztése és visszaírása
+EGYÉB KÖVETELÉSEK
+Munkavállalókkal szembeni követelések
+Munkavállalóknak folyósított elolegek
+Eloírt tartozások
+Egyéb elszámolások a munkavállalókkal
+Költségvetési kiutalási igények
+Fogyasztói árkiegészítés
+Termelési árkiegészítés
+Importtámogatás
+Exporttámogatás
+Mezogazdasági és élelmiszer-ipari exporttámogatás
+Dotáció
+Reorganizációs támogatás
+Meliorációs és öntözésfejlesztési beruházási támogatás
+Egyéb támogatás
+Költségvetési kiutalási igények teljesítése
+Fogyasztói árkiegészítés teljesítése
+Termelési árkiegészítés teljesítése
+Importtámogatás teljesítése
+Exporttámogatás teljesítése
+Mezogazdaásgi és élelmiszer-ipari exporttámogatás teljesítése
+Dotáció teljesítése
+Reorganizációs támogatás teljesítése
+Meliorációs és öntözésfejlesztési beruházási támogatás teljesítése
+Egyéb támogatás teljesítése
+Rövid lejáratú kölcsönadott pénzeszközök
+Rövid lejáratú kölcsönök
+Tartósan adott kölcsönökbol átsorolt követelések
+Vásárolt és kapott követelések
+Vásárolt belföldi követelések
+Vásárolt külföldi útján átvett követelések
+Követelés fejében, csere követelések
+Nem pénzbeli hozzájárulásként kapott (átvett) követelések
+Térítés nélkül átvett követelések
+Egyéb címen kapott követelések
+Részesedésekkel, értékpapírokkal kapcsolatos követelések
+Határidos, opciós és swapügyletekkel kapcsolatos követelések
+Különféle egyéb követelések
+Egyéb követelések értékvesztése és annak visszaírása
+ÉRTÉKPAPÍROK
+Részesedés kapcsolt vállalkozásban
+Részesedés anyavállalatban
+Részesedés leányvállalatban
+Részesedés közös vezetésu vállalkozásban
+Részesedés társult vállalkozásban
+Kapcsolt vállalk. lévo részesedések értékvesztése és annak visszaírása
+Egyéb részesedés
+Eladásra vásárolt egyéb részesedések
+Egyéb részesedések értékvesztése és annak visszaírása
+Saját részvények, saját üzletrészek
+Visszavásárolt saját részvények, saját üzletrészek
+Saját részvények, saját üzletrészek értékvesztése
+Forgatási célú hitelviszonyt megtestesíto értékpapírok
+Eladásra vásárolt hitelviszonyt megtestesíto értékpapírok
+Eladásra vásárolt diszkontértékpapírok
+Forgatási célú hitelvisz. megtest. értékp. értékveszt. és visszaírása
+PÉNZESZKÖZÖK
+Pénztár
+Pénztárszámla
+Elektronikus pénzeszközök
+Valutapénztár
+Valutapénztár-számla
+Valutaárfolyam-különbözeti számla
+Csekkek
+Elszámolási betétszámla
+Elkülönített betétszámlák
+Kamatozó betétszámlák
+Elkülönített pénzeszközök kötvénykibocsátásból
+Fejlesztési célra elkülönített pénzeszközök
+Egyéb célra elkülönített pénzeszközök
+Lakásépítési betétszámla
+Elkülönített lakásépítési célú pénzeszközök
+Lakásépítés úton lévo pénzeszközei
+Deviza-betétszámla
+Deviza-betétszámla
+Külföldön vezetett deviza-betétszámla
+Deviza-törzsbetétszámla
+Egyéb deviza-betétszámla
+Devizabetétárfolyam-különbözeti számla
+Átvezetési számla
+AKTÍV IDOBELI ELHATÁROLÁSOK
+Bevételek aktív idobeli elhatárolása
+Diszkontértékpapírok idoarányos kamatának elhatárolása
+Értékpapír besz. kapcs. különbözetbol az idoarányos árfolyamny. elhat.
+Árbevétel, egyéb kamatbevétel, egyéb bevétel elhatárolása
+Költségek, ráfordítások aktív idobeli elhatárolása
+Értékpapír, részesedés besz. kapcs. biz. díj, vételi opció díj elhat.
+Többletkötelezettségek elhatárolása
+Költségek, egyéb fizetett kamatok, egyéb ráfordítások elhatárolása
+Halasztott ráfordítások
+Tartozásátvállalások miatti ráfordítások elhatárolása
+Devizakötelezettségek árfolyamveszteségének elhatárolása
+A követelésjellegu aktív idobeli elhat. értékveszt. és visszaírása
+Bevételek aktív idobeli elhat-nak értékvesztése
+Ktg-ek, ráf-k aktív idobeli elhatárolásának értékvesztése
+Halasztott ráfordítások értékvesztése
+FORRÁSOK
+SAJÁT TOKE
+Jegyzett toke
+Toketartalék
+Eredménytartalék
+Lekötött tartalék
+Lekötött tartalék toketartalékból
+Lekötött tartalék eredménytartalékból
+Lekötött tartalék pótbefizetésbol
+Értékelési tartalék
+Mérleg szerinti eredmény
+CÉLTARTALÉKOK
+Céltartalék a várható kötelezettségekre
+Céltartalék a jövobeni költségekre
+Árfolyamveszteség idobeli elhatárolása alapján képzett céltartalék
+Egyéb céltartalék
+HÁTRASOROLT KÖTELEZETTSÉGEK
+Hátrasorolt kötelezettségek kapcsolt vállalkozással szemben
+Hátrasorolt kötelezettségek anyavállalattal szemben
+Hátrasorolt kötelezettségek leányvállalattal szemben
+Hátrasorolt kötelezettségek közös vezetésu vállalkozással szemben
+Hátrasorolt kötelezettségek társult vállalkozással szemben
+Hátrasorolt kötelezetts. egyéb részes. viszonyban lévo vállalk.szemb.
+Hátrasorolt kötelezettségek egyéb gazdálkodóval szemben
+HOSSZÚ LEJÁRATÚ KÖTELEZETTSÉGEK
+Hosszú lejáratra kapott kölcsönök
+Átváltoztatható kötvények
+Tartozások kötvénykibocsátásból
+Tartozások kötvénykibocsátásból forintban
+Tartozások kötvénykibocsátásból devizában
+Beruházási és fejlesztési hitelek
+Beruházási és fejlesztési hitelek forintban
+Beruházási és fejlesztési hitelek devizában
+Egyéb hosszú lejáratú hitelek
+Egyéb hosszú lejáratú hitelek forintban
+Egyéb hosszú lejáratú hitelek devizában
+Tartós kötelezettségek kapcsolt vállalkozással szemben
+Tartós kötelezettségek anyavállalattal szemben
+Tartós kötelezettségek leányvállalattal szemben
+Tartós kötelezettségek közös vezetésu vállalkozással szemben
+Tartós kötelezettségek társult vállalkozással szemben
+Tartós kötelezettség egyéb részes. viszonyban lévo vállalk. szemben
+Pénzügyi lízing miatti kötelezettségek
+Egyéb hosszú lejáratú kötelezettségek
+Kincstári vagyon részét képezo eszközök kezelésbevét. kapcs. kötel.
+lapítókkal szemben hosszú lejáratú kötelezettségek
+Hosszú lejáratú egyéb kötelezettségek
+RÖVID LEJÁRATÚ KÖTELEZETTSÉGEK
+Rövid lejáratú kölcsönök
+Rövid lejáratú átváltoztatható kötvények
+Egyéb rövid lejáratú kölcsönök
+Rövid lejáratú hitelek
+Rövid lejáratú hitelek forintban
+Rövid lejáratú hitelek devizában
+Vevoktol kapott elolegek
+Szállítók
+Belföldi anyag- és áruszállítók
+Külföldi anyag- és áruszállítók
+Belföldi szolgáltatók
+Külföldi szolgáltatók
+Nem számlázott szállítások, szolgáltatások
+Beruházási szállítók
+Belföldi beruházási szállítók
+Külföldi beruházási szállítók
+Nem számlázott beruházási szállítók
+Faktoringtartozások
+Váltótartozások
+Rövid lejáratú kötelezettségek kapcsolt vállalkozással szemben
+Rövid lejáratú kötelezettségek anyavállalattal szemben
+Rövid lejáratú kötelezettségek leányvállalattal szemben
+Rövid lejáratú kötelezettségek közös vezetésu vállalkozással szemben
+Rövid lejáratú kötelezettségek társult vállalkozással szemben
+Rövid lejáratú kötelez. egyéb részes. visz. lévo vállalk. szemben
+Társasági adó elszámolása
+Személyi jövedelemadó elszámolása
+Költségvetési befizetési kötelezettségek
+Egészségügyi hozzájárulás
+Külön fel nem sorolt befizetési kötelezettségek
+Külker. áruforg. és különleges természeti tényezokkel kapcs. árkül.
+Kül. helyzet, természeti, termelési, keresk. szárm. jöv. befiz. köt.
+Fogyasztási adó
+Rehabilitációs foglalkoztatási hozzájárulás
+Sertésállomány-mentesítési hozzájárulás
+Jövedéki adó
+Munkaadói járulék
+Munkavállalói járulék
+Költségvetési befizetési kötelezettségek teljesítése
+Egészségügyi hozzájárulás teljesítése
+Külön fel nem sorolt befizetési kötelezettségek teljesítése
+Külker. áruforg., különleges term. tényezokkel kapcs. árkül. telj.
+Kül. Helyzet, természeti, termelési, keresk. szárm. jöv. befiz. köt.
+Fogyasztási adó teljesítése
+Rehabilitációs foglalkoztatási hozzájárulás teljesítése
+Sertésállomány-mentesítési hozzájárulás teljesítése
+Jövedéki adó teljesítése
+Munkaadói járulék teljesítése
+Munkavállalói járulék teljesítése
+Vám- és pénzügyorség elszámolási számla
+Vámköltségek és egyéb vámterhek elszámolási számla
+Importbeszerzés után fizetendo általánosforgalmiadó-elszámolási számla
+Vám- és pénzügyorséggel kapcsolatos egyéb elszámolások
+Elozetesen felszámított általános forgalmi adó
+Fizetendo általános forgalmi adó
+Általánosforgalmiadó-elszámolási számla
+Helyi adók elszámolási számla
+Építményadó-elszámolási számla
+Telekadó-elszámolási számla
+Kommunálisadó-elszámolási számla
+Idegenforgalmiadó-elszámolási számla
+Helyi iparuzésiadó-elszámolási számla
+Gépjármuadó-elszámolási számla
+Külföldi gépjármuadó-elszámolási számla
+Egyéb helyiadó-elszámolási számla
+Jövedelemelszámolási számla
+Keresetelszámolási számla
+Társadalombiztosítási ellátás
+Egyéb kifizetések elszámolása
+Fel nem vett járandóságok
+Társadalombiztosítási kötelezettség
+Elkülönített alapokkal kapcsolatos fizetési kötelezettségek
+Szakképzési hozzájárulás
+Elszámolásra kapott pénzeszközök
+Környezetvédelmi termékdíj-fizetési kötelezettség
+Egyéb befizetések az elkülönített alapokba
+Vagyonkezelo szervezetekkel szembeni kötelezettségek
+Rövid lejáratú egyéb kötelezettségek munkavállalókkal, tagokkal szemb.
+Határidos, opciós és swapügyletekkel kapcsolatos kötelezettségek
+Részesedésekkel, értékpapírokkal kapcsolatos kötelezettségek
+Különféle rövid lejáratú egyéb kötelezettségek
+Átvállalt kötelezettségek
+Alapítókkal szembeni rövid lejáratú kötelezettségek
+Beszerzési árba beletartozó eloírt egyéb kötelezettségek
+Rövid lejáratú különféle egyéb kötelezettségek
+PASSZÍV IDOBELI ELHATÁROLÁSOK
+Bevételek passzív idobeli elhatárolása
+Befolyt, elszámolt bevételek elhatárolása
+Költségek ellentételezésére kapott támogatások elhatárolása
+Devizaeszk., devizaköt. mérleg-ford.nap értékel. árfolyamnyer. elhat.
+Költségek, ráfordítások passzív idobeli elhatárolása
+Mérlegfordulónap elotti idoszakot terhelo költségek, ráford. elhat.
+Értékpapír besz. kapcs. különbözetbol idoarányos árfolyamnyer. elhat.
+Fizetendo kamatok elhatárolása
+Halasztott bevételek
+Elengedett kötelezettségek miatti elhatárolás
+Fejlesztési célra kapott támogatások elhatárolása
+Térítés nélkül átvett (ajándékba kapott, fellelt) eszk. érték elhat.
+Negatív üzleti vagy cégérték elhatárolása
+ÉVI MÉRLEGSZÁMLÁK
+Nyitómérlegszámla
+Zárómérlegszámla
+Adózott eredményelszámolása
+KÖLTSÉGNEMEK
+ANYAGKÖLTSÉG
+Vásárolt anyagok költségei
+Egy éven belül elhasználódó anyagi eszközök költségei
+Egyéb anyagköltség
+Anyagköltség-megtérülés
+IGÉNYBE VETT SZOLGÁLTATÁSOK KÖLTSÉGEI
+Szállítás-rakodás, raktározás költségei
+Bérleti díjak
+Karbantartási költségek
+Hirdetés-, reklám-, propagandaköltségek
+Oktatás és továbbképzés költségei
+Utazási és kiküldetési költségek (napidíj nélkül)
+Könyvviteli szolgáltatás költségei
+Bérmunka költségei
+Egyéb igénybe vett szolgáltatások költségei
+EGYÉB SZOLGÁLTATÁSOK KÖLTSÉGEI
+Hatósági igazgatási, szolgáltatási díjak, illetékek
+Pénzügyi, befektetési szolgáltatási díjak
+Biztosítási díj
+Költségként elszámolandó adók, járulékok, termékdíj
+Különféle egyéb költségek
+BÉRKÖLTSÉG
+Bérköltség
+SZEMÉLYI JELLEGU EGYÉB KIFIZETÉSEK
+Munkavállalóknak, tagoknak fizetett személyi jellegu kifizetések
+Jóléti és kulturális költségek
+Egyéb személyi jellegu kifizetések
+BÉRJÁRULÉKOK
+Nyugdíj-biztosítási és egészségbiztosítási járulék
+Egészségügyi hozzájárulás
+Munkaadói járulék
+Szakképzési hozzájárulás
+Egyéb bérjárulék
+ÉRTÉKCSÖKKENÉSI LEÍRÁS
+Terv szerinti értékcsökkenési leírás
+Használatbavételkor egy összegben elszámolt értékcsökkenési leírás
+AKTIVÁLT SAJÁT TELJESÍTMÉNYEK ÉRTÉKE
+Saját termelésu készletek állományváltozása
+Saját eloállítású eszközök aktivált értéke
+KÖLTSÉGNEM-ÁTVEZETÉSI SZÁMLA
+KÖLTSÉGHELYEK, ÁLTALÁNOS KÖLTSÉGEK
+JAVÍTÓ-KARBANTARTÓ ÜZEMEK KÖLTSÉGEI
+SZOLGÁLTATÁST VÉGZO ÜZEMEK (EGYSÉGEK) KÖLTSÉGEI
+GÉPKÖLTSÉG
+ÜZEMI IRÁNYÍTÁS ÁLTALÁNOS KÖLTSÉGEI
+KÖZPONTI IRÁNYÍTÁS ÁLTALÁNOS KÖLTSÉGEI
+ÉRTÉKESÍTÉSI, FORGALMAZÁSI KÖLTSÉGEK
+ELKÜLÖNÍTETT EGYÉB ÁLTALÁNOS KÖLTSÉGEK
+Alapítás-átszervezés költségei
+Alap- és alkalmazott kutatás saját költségei
+Vállalkozásba adott alap- és alkalmazott kutatás költségei
+Kísérleti fejlesztés saját költségei
+Vállalkozásba adott kísérleti fejlesztés költségei
+Kutatás, kísérleti fejlesztés általános és közvetett költségei
+Kutatás, kísérleti fejlesztés elszámolt értékcsökkenése
+Garanciális javítási költségek
+Egyéb elkülönített költségek
+KÖLTSÉGHELYEK KÖLTSÉGEINEK ÁTVEZETÉSE
+Költséghelyek költségeinek átvezetése
+TEVÉKENYSÉGEK KÖLTSÉGEI
+SZOLGÁLTATÁS KÖLTSÉGEI
+KÖLTSÉGHELYEK TERMELÉSI KÖLTSÉGEI
+FORGALOMBA HOZATAL KÖLTSÉGEI
+TEVÉKENYSÉGEK KÖLTSÉGEINEK ELSZÁMOLÁSA
+Saját termelésu készletek elszámolása
+Saját eloállítású eszközök elszámolása
+Értékesített saját termelésu készletek elszámolása
+Saját termelésu készletek felhasználásának elszámolása
+Közvetlenül értékesítésként elszámolt tev. közv. ktg. elszámolása
+ÉRTÉKESÍTÉS ELSZÁMOLT ÖNKÖLTSÉGE ÉS RÁFORDÍTÁSOK
+ANYAGJELLEGU RÁFORDÍTÁSOK
+Anyagköltség
+Igénybe vett szolgáltatások értéke
+Egyéb szolgáltatások értéke
+Eladott áruk beszerzési értéke
+Eladott (közvetített) szolgáltatások értéke
+SZEMÉLYI JELLEGU RÁFORDÍTÁSOK
+Bérköltség
+Személyi jellegu egyéb kifizetések
+Bérjárulékok
+ÉRTÉKCSÖKKENÉSI LEÍRÁS
+ÉRTÉKESÍTÉS KÖZVETETT KÖLTSÉGEI
+Értékesítési, forgalmazási költségek
+Igazgatási költségek
+Egyéb általános költségek
+EGYÉB RÁFORDÍTÁSOK
+Értékesített immateriális javak, tárgyi eszközök könyv szerinti értéke
+Értékesített, átruházott (engedményezett) követelések könyv sz. értéke
+Mérlegfordulónap elott beköv. események üzleti évhez kapcs. ráford.
+Káreseménnyel kapcsolatos fizetések, fizetendo összegek
+Bírságok, kötbérek, fekbérek, késedelmi kamatok, kártérítések
+Külföldön, külföldi telephelyen fizetett, fizetendo nyereségadó
+Költségek (ráfordítások) ellentételezésére adott támogatás, juttatás
+Termékpálya-szabályozáshoz kapcsolódó fizetések
+Utólag adott – közvetve kapcsolódó – pénzügyileg rendezett engedmény
+Céltartalék képzése
+Céltartalékképzés a várható kötelezettségekre
+Céltartalékképzés a jövobeni költségekre
+Céltartalékképzés egyéb címen
+Értékvesztés, terven felüli értékcsökkenés
+Készletek elszámolt értékvesztése
+Követelések elszámolt értékvesztése
+Immateriális javak elszámolt terven felüli értékcsökkenése
+Tárgyi eszközök elszámolt terven felüli értékcsökkenése
+Adók, illetékek, hozzájárulások
+Költségvetéssel elszámolt adók, illetékek, hozzájárulások
+Önkormányzatokkal elszámolt adók, illetékek, hozzájárulások
+Elkülönített alapokkal elszámolt adók, illetékek, hozzájárulások
+Ráfordításként elszámolt fogyasztási adó, jövedéki adó
+Különféle egyéb ráfordítások
+Behajthatatlan követelés leírt összege
+Hiányzó, kivez. immat. javak, tárgyi eszk. könyv szerinti értéke
+Hiányzó, kivez. immat. javak, tárgyi eszk. könyv szerinti értéke
+Kereskedelmi áruk veszteségjellegu leltárértékelési különbözete
+PÉNZÜGYI MUVELETEK RÁFORDÍTÁSAI
+Befektetett pénzügyi eszközök árfolyamvesztesége
+Kapcsolt vállalk. eladott (beváltott) értékpapírok árfolyamvesztesége
+Egyéb eladott (beváltott) értékpapírok árfolyamvesztesége
+Kapcsolt vállalkozásnak értékesített részesedés árfolyamvesztesége
+Egyéb értékesített részesedés árfolyamvesztesége
+Fizetendo kamatok és kamatjellegu ráfordítások
+Kölcsönök, hitelek kapcsolt vállalkozásnak fizetendo kamata
+Kölcsönök, hitelek egyéb fizetendo kamata
+Értékpapírok után kapcsolt vállalkozásnak fizetendo kamat
+Értékpapírok után egyéb fizetendo kamat
+Hátrasorolt kötelezettségek után kapcsolt vállalk. fizetendo kamat
+Hátrasorolt kötelezettségek után egyéb fizetendo kamat
+Befektetési jegyek eladásakor, beváltásakor realizált veszteség
+Fizetendo kamatok és kamatjellegu ráfordítások
+Kapcsolt vállalkozásnál valódi penziós ügyletek kamatráfordítása
+Egyéb valódi penziós ügyletek kamatráfordítása
+Kapcsolt vállalkozásnál kamatfedezeti ügyletek vesztesége
+Egyéb kamatfedezeti ügyletek vesztesége
+Részesedések, értékpapírok, bankbetétek értékvesztése
+Tulajdoni részesedést jelento befektetések értékvesztése
+Hitelviszonyt megtestesíto értékpapírok értékvesztése
+Tartós bankbetétek értékvesztése
+Tulajdoni részesedést jelento befektetések visszaírt értékvesztése
+Hitelviszonyt megtestesíto értékpapírok visszaírt értékvesztése
+Tartós bankbetétek visszaírt értékvesztése
+Forgóeszközök között kimutatott
+Tulajdoni részesedést jelento befektetés értékesítés árfolyamveszt.
+Hitelviszonyt megtest. értékp. értékesítés, bevált. árfolyamveszt.
+Diszkontértékpapír értékesítésének, beváltásának árfolyamvesztesége
+Hitelviszonyt megtest. értékp. törlesztésekor real. árfolyamveszt.
+Átváltáskori, értékeléskori árfolyamveszteség
+Deviza- és valutkészletek forintra átváltásának árfolyamvesztesége
+Külf. pénzértékre szóló eszk., kötel. pénzügy. rend. árf. veszt.
+Külf. pénzértékre szóló eszk., kötel. mérleg-fordulónapi árf. veszt.
+Egyéb árfolyamveszteségek, opciós díjak
+Névérték f. vás. értékp. bek. érték és névérték különb. elhat. veszt.
+Nem fedezeti célú elszámolási ügyletek elszámolt vesztesége
+Nem kamatfedezeti célú, egyéb fedezeti ügyletek elszámolt vesztesége
+Vásárolt eladási opcióért fizetett opciós díj
+Le nem hívott vételi opcióért fizetett opciós díj
+Bekerül. értékben figyelembe nem vett lehívott vételi opció opciós díj
+Vásárolt követelésekkel kapcsolatos ráfordítások
+Behajthatatlan vásárolt követelés leírt összege
+Vásárolt követelés be nem folyt összege
+Vásárolt követelés értékesítésének vesztesége
+Egyéb pénzügyi ráfordítások
+Pénzügyi rendezéshez kapcsolódó adott árengedmény
+Közös üzemeltetés megtérítendo közös költsége
+Közös üzemeltetés átadott nyeresége
+Egyesülés muködési költségeinek megtérített összege
+RENDKÍVÜLI RÁFORDÍTÁSOK
+Társaságba bevitt eszközök nyilvántartás szerinti értéke
+Jogelod gazdasági társaságban lévo megszunt részesedés nyilv. értéke
+Megszunt részes. ellenében kapott eszk., átvett köt. értékkülönb.
+Tokekiv. történo tokeleszállítás bevont részes. nyilv. szerinti értéke
+Átalakul. az átalakult társaságban lévo megszunt részes. nyilv. érték
+Beolvad. a jogelod gazd. társ. lévo megszunt részes. nyilv. érték
+Visszavásárolt saját részvény, saját üzletrész bevon. a nyilv. érték
+Tartozásátvállalás szerzodés szerinti összege
+Egyéb vagyoncsökkenéssel járó rendkívüli ráfordítások
+Térítés nélkül átadott eszközök nyilvántartás szerinti értéke
+Térítés nélkül nyújtott szolgáltatások bekerülési értéke
+Elengedett követelés könyv szerinti értéke
+Véglegesen fejlesztési célra adott támogatás
+Véglegesen nem fejlesztési célra átadott pénzeszközök
+NYERESÉGET TERHELO ADÓK
+Társasági adó
+ÉRTÉKESÍTÉS ÁRBEVÉTELE ÉS BEVÉTELEK
+BELFÖLDI ÉRTÉKESÍTÉS ÁRBEVÉTELE
+EXPORTÉRTÉKESÍTÉS ÁRBEVÉTELE
+Export árbevételt csökkento külföldi szállítási-rakodási költség
+EGYÉB BEVÉTELEK
+Értékesített immateriális javak, tárgyi eszközök bevétele
+Értékesített, átruházott (engedményezett) követelések elismert értéke
+A mérlegkészítés idopontjáig pénzügyileg rendezett egyéb bevételek
+Káreseményekkel kapcsolatosan kapott bevételek
+Kapott bírságok, kötbérek, fekbérek, késedelmi kamatok, kártérítések
+Behajthatatlannak minosített és leírt követelésekre kapott összegek
+Költségek, ráfordítások ellentételezésére kapott támogatás, juttatás
+Termékpálya-szabályozáshoz kapcsolódóan kapott összegek
+Utólag kapott – közvetve kapcsolódó – pénzügyileg rendezett engedmény
+Céltartalék felhasználása (csökkenése, megszunése)
+Várható kötelezettségekre képzett céltartalék felhasználása
+Jövobeni költségekre képzett céltartalék felhasználása
+Egyéb címen képzett céltartalék felhasználása
+Visszaírt értékvesztés, terven felüli értékcsökkenés
+Készletek visszaírt értékvesztése
+Követelések visszaírt értékvesztése
+Immateriális javak visszaírt terven felüli értékcsökkenése
+Tárgyi eszközök visszaírt terven felüli értékcsökkenése
+Visszafizetési kötelezettség nélkül kapott támogatás, juttatás
+Költségvetésbol kapott támogatás, juttatás
+Önkormányzattól kapott támogatás, juttatás
+Elkülönített alapoktól kapott támogatás, juttatás
+Biztosító által visszaigazolt kártérítés összege
+Különféle egyéb bevételek
+Kereskedelmi áruk nyereségjellegu leltárértékelési különbözete
+Negatív üzleti vagy cégértékbol az üzleti évben leírt összeg
+PÉNZÜGYI MUVELETEK BEVÉTELEI
+Kapott (járó) osztalék és részesedés
+Kapcsolt vállalkozástól kapott (járó) osztalék és részesedés
+Egyéb kapott (járó) osztalék és részesedés
+Részesedések értékesítésének árfolyamnyeresége
+Kapcsolt vállalkozásnak értékesített részesedés árfolyamnyeresége
+Egyéb értékesített részesedés árfolyamnyeresége
+Befektetett pénzügyi eszközök kamatai, árfolyamnyeresége
+Tartósan adott kölcsön (bankbetét) kapott (járó) kamata
+Kamatozó értékpapír kapott (járó) kamata
+Kamatozó értékpapír értékesítésekor az eladási árban lévo kamat
+Kamatozó értékpapír vételárában lévo kamat (csökkento tétel)
+Befekt. jegyek kapott hozama, eladásakor, bevált. realizált nyereség
+Lízingdíjban lévo kapott (járó) kamat
+Diszkontértékpapírnál idoarányosan elszámolt összeg
+Eladott (beváltott) értékpapír árfolyamnyeresége
+Egyéb kapott (járó) kamatok és kamatjellegu bevételek
+Forgóeszk. között kimutatott kölcsön, váltókövetel., pénzeszköz kamata
+Forgóeszközök között kimutatott kamatozó értékpapír kamata
+Kamatozó értékpapír vételárában lévo kamat (csökkento tétel)
+Forgóeszk. között kimutatott diszkontértékp. idoarányos elszám. össz.
+Forgóeszk. között kimut. értékp. értékesít. az eladási árban kamat
+Valódi penziós ügyletek kamatbevétele
+Kamatfedzeti ügyletek nyeresége
+Pénzügyi muveletek egyéb bevételei
+Tulajdoni részesedést jelento befektetés értékesítésének árfolyamnyer.
+Hitelviszonyt megtestesíto értékpapír értékesít., bevált. árfolyamny.
+Diszkontértékpapír értékesítésének, beváltásának árfolyamnyeresége
+Hitelviszonyt megtestesíto értékpapír törleszt. realizált árfolyamny.
+Átváltási, értékeléskori árfolyamnyereség
+Deviza- és valutakészletek forintra átváltásának árfolyamnyeresége
+Külföldi pénzértékre szóló eszközök és kötelez. pü. rend. árfolyamny.
+Külf. pénzért. szóló eszk., köt. mérleg-fordulónapi összev. árf.nyer.
+Egyéb árfolyamnyereségek, opciós díjbevételek
+Névért. alatt vás. értékp. bek. érték és névérték között elhat. nyer.
+Nem fedezeti célú elszámolási ügyletek elszámolt nyeresége
+Nem kamatfedezeti célú, egyéb fedezeti ügyletek elszámolt nyeresége
+Kiírt opcióért kapott opciós díj
+Vásárolt követelésekkel kapcsolatos bevételek
+Könyv szerinti értéket meghaladó összegben befolyt bevétel
+Vásárolt követelés értékesítésének nyeresége
+Egyéb pénzügyi bevételek
+Pénzügyi rendezéshez kapcsolódó kapott árengedmény
+Közös üzemeltetés költségeinek átterhelt összege
+Közös üzemeltetés átvett nyeresége
+Egyesülés muködési költségeinek átterhelt összege
+RENDKÍVÜLI BEVÉTELEK
+Társaságba bevitt eszközök létesíto okiratban meghatározott értéke
+Megszunt részes. ellenében kapott eszk., átvett köt. értékkülönbözete
+Tokekiv. tokeleszáll. bev. részes. névérték fejében átvett eszk. érték
+Átalakuláskor a megszunt részes. jutó-végl.vm.sz.- saját toke összege
+Beolvadáskor a megszunt részes. jutó –végl.vm.sz.– saját toke összege
+Visszavásárolt saját részvény, saját üzletrész bevonásakor a névérték
+Tartozásátvállalás során –ellentételezés nélkül– átváll. köt. összege
+Egyéb vagyonnövekedéssel járó rendkívüli bevételek
+Térítés nélkül átvett eszközök forgalmi, piaci értéke
+Ajándékként, hagyatékként kapott, fellelt eszközök piaci értéke
+Hitelezo által elengedett kötelezettség értéke
+Véglegesen fejlesztési célra kapott támogatás
+Véglegesen átvett (kapott) nem fejlesztési célú pénzeszközök
+Elévült kötelezettség összege

@@ -1,0 +1,195 @@
+﻿<Window x:Class="WpfApp3.BerszamDolgozo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MunkaÓra Nyilvántartása" Height="450" Width="800" Background="#FF111BFF" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="{DynamicResource 12}"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="217*"/>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="108*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Azonosító" HorizontalAlignment="Left" Margin="0,226,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="14">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Dolgozó Neve:" HorizontalAlignment="Left" Margin="0,257,0,0" VerticalAlignment="Top" Width="124" FontFamily="Arial Rounded MT Bold" FontSize="14">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Jogviszonya:" HorizontalAlignment="Left" Margin="0,288,0,0" VerticalAlignment="Top" Width="96" FontFamily="Arial Rounded MT Bold" FontSize="14">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Havi Bruttó Bér:" HorizontalAlignment="Left" Margin="0,319,0,0" VerticalAlignment="Top" Width="124" FontFamily="Arial Rounded MT Bold" FontSize="14">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="azonText"  HorizontalAlignment="Left" Height="23" Margin="129,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="nevText" HorizontalAlignment="Left" Height="23" Margin="129,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="jogvText" HorizontalAlignment="Left" Height="23" Margin="129,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="haviberText" HorizontalAlignment="Left" Height="23" Margin="129,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="kiv" Content="Kiválaszt" HorizontalAlignment="Left" Margin="283,197,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Height="22" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Hónap:" HorizontalAlignment="Left" Margin="373,0,0,0" VerticalAlignment="Top" Width="76" FontFamily="Arial Black" FontSize="14" FontWeight="Bold" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <ComboBox x:Name="honap" HorizontalAlignment="Left" Margin="64,5,0,0" VerticalAlignment="Top" Width="57"  SelectedItem="honap_SelectionChanged_2" SelectionChanged="honap_SelectionChanged" Grid.Column="1">
+            <ComboBox.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </ComboBox.Background>
+            <ComboBoxItem Content="Január"></ComboBoxItem>
+            <ComboBoxItem Content="Február"></ComboBoxItem>
+            <ComboBoxItem Content="Március"></ComboBoxItem>
+            <ComboBoxItem Content="Április"></ComboBoxItem>
+            <ComboBoxItem Content="Május"></ComboBoxItem>
+            <ComboBoxItem Content="Június"></ComboBoxItem>
+            <ComboBoxItem Content="Július"></ComboBoxItem>
+            <ComboBoxItem Content="Augusztus"></ComboBoxItem>
+            <ComboBoxItem Content="Szeptember"></ComboBoxItem>
+            <ComboBoxItem Content="Október"></ComboBoxItem>
+
+            <ComboBoxItem Content="November"></ComboBoxItem>
+
+            <ComboBoxItem Content="December"></ComboBoxItem>
+
+        </ComboBox>
+        <Label Content="Ledolg.Napok " HorizontalAlignment="Left" Margin="373,57,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2" Width="147">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="dolgNap" HorizontalAlignment="Left" Height="23" Margin="141,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Szabadnapok " Margin="373,88,56,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="szabadNap" HorizontalAlignment="Left" Height="23" Margin="141,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Beteg Napok" HorizontalAlignment="Left" Margin="373,119,0,0" VerticalAlignment="Top" Width="147" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="tapNap" HorizontalAlignment="Left" Height="26" Margin="141,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Button x:Name="nettober" Content="Nettó Bér Kalkulátor&#xD;&#xA;" HorizontalAlignment="Left" Margin="86,150,0,0" VerticalAlignment="Top" Width="120" Height="23" Click="Button_Click_2" Grid.Column="2" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+        <Label Content="SZJA 15%" HorizontalAlignment="Left" Margin="374,192,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Nyugdíj Járulék 10%" HorizontalAlignment="Left" Margin="374,224,0,0" VerticalAlignment="Top" Width="132" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Szoc.Hozz.Jár Ado 19.5%" HorizontalAlignment="Left" Margin="374,319,0,0" VerticalAlignment="Top" Width="121" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Eb.Járulék 7%" HorizontalAlignment="Left" Margin="374,257,0,0" VerticalAlignment="Top" Width="99" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Munkaerőpiaci jár. 1.5%" HorizontalAlignment="Left" Margin="374,288,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" Width="153" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Képzési h.J 1.5%" HorizontalAlignment="Left" Margin="374,350,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Kifizetendő Bér" HorizontalAlignment="Left" Margin="86,195,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2" FontFamily="Arial Black">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="szjaText" HorizontalAlignment="Left" Height="23" Margin="98,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <TextBox  x:Name="nyugdijText" HorizontalAlignment="Left" Height="23" Margin="98,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <TextBox x:Name="ebText" HorizontalAlignment="Left" Height="23" Margin="98,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <TextBox x:Name="munkaeropiaciText" HorizontalAlignment="Left" Height="23" Margin="98,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <TextBox  x:Name="szochozzText" HorizontalAlignment="Left" Height="23" Margin="98,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <TextBox x:Name="kepzesiText" HorizontalAlignment="Left" Height="23" Margin="98,350,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <TextBox x:Name="nettoBerText" HorizontalAlignment="Left" Height="23" Margin="86,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="2">
+            <TextBox.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </TextBox.Background>
+        </TextBox>
+        <Button Content="Kilépés" HorizontalAlignment="Left" Margin="120,384,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Column="2" Height="22" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+        <DataGrid x:Name="dolgozoLista" HorizontalAlignment="Left" Height="185" VerticalAlignment="Top" Width="358" SelectionChanged="dolgozoLista_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="azon" Header="Azonositó"/>
+                <DataGridTextColumn x:Name="nev"  Header="Név"/>
+                <DataGridTextColumn x:Name="szulIdo" Header="Születési Idő"/>
+
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <TextBox x:Name="haviMunkanap" HorizontalAlignment="Left" Height="23" Margin="141,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Havi Munkanapok Száma:" HorizontalAlignment="Left" Margin="373,32,0,0" VerticalAlignment="Top" Width="147" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Fizetett Ünnep" HorizontalAlignment="Left" Margin="373,150,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2" Width="147">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="fizUnnep" HorizontalAlignment="Left" Height="26" Margin="141,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Órabér:" HorizontalAlignment="Left" Margin="0,358,0,0" VerticalAlignment="Top" Width="89" FontFamily="Arial Black" FontSize="20"/>
+        <TextBox x:Name="oraberText" HorizontalAlignment="Left" Height="33" Margin="129,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Kiválaszt" Grid.Column="2" HorizontalAlignment="Left" Margin="0,5,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_3" BorderBrush="#FFA49744" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF502F2F" Offset="1"/>
+                    <GradientStop Color="#FF2E2B2D" Offset="0.547"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Label Content="Bérköltség" HorizontalAlignment="Left" Margin="374,381,0,0" VerticalAlignment="Top" Width="121" FontFamily="Arial Black" FontSize="14" BorderBrush="#FF811C1C" Grid.ColumnSpan="2">
+            <Label.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="berkoltsegText" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="98,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Button x:Name="ment" Content="Mentés" HorizontalAlignment="Left" Margin="120,304,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click_4" Grid.Column="2" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

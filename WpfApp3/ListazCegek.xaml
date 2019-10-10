@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfApp3.ListazCegek"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Céglista" Height="451" Width="800" ResizeMode="NoResize">
+    <Window.Resources>
+        <Color x:Key="GombSzin">#FFE03939</Color>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Properties/könyvelő.jpg"/>
+        </Grid.Background>
+
+        <ListView x:Name="Lista1" ItemsSource="{Binding Ceglista1}" Margin="265,0,222,76" SelectionChanged="ListView_SelectionChanged_1" FontSize="16" FontWeight="Bold" FontFamily="Arial Black">
+            <ListView.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </ListView.Background>
+            <ListView.View>
+
+                <GridView x:Name="Lista2">
+                    <GridView.Columns>
+
+
+                        <GridViewColumn  DisplayMemberBinding="{Binding Cegnev}" Header="CégNeve" Width="150"></GridViewColumn>
+                    </GridView.Columns>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Image HorizontalAlignment="Left" Height="125" Margin="538,20,0,0" VerticalAlignment="Top" Width="192"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="630,30,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Kiválaszt" x:Name="kivalaszt" HorizontalAlignment="Left" Margin="265,363,0,0" VerticalAlignment="Top" Width="140" Click="kivalaszt_Click" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="#FFCFDEF8"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Új Vállalkozás" x:Name="uj" HorizontalAlignment="Left" Margin="430,363,0,0" VerticalAlignment="Top" Width="140" Click="uj_Click" FontFamily="Arial Rounded MT Bold">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Kilépés" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75" FontFamily="Arial Rounded MT Bold" Click="Button_Click">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource 12}"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

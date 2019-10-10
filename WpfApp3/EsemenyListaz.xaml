@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp3.EsemenyListaz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Események Listázása" Height="390" Width="713" ResizeMode="NoResize">
+    <Grid Background="#FFCFDEF8" Margin="0,0,2,-1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <ListView x:Name="Lista4" ItemsSource="{Binding esemenyLista}"  HorizontalAlignment="Left" Margin="0,0,0,95" Width="564" SelectionChanged="Lista4_SelectionChanged">
+
+            <ListView.Background>
+                <ImageBrush/>
+            </ListView.Background>
+
+            <ListView.View>
+                <GridView>
+
+                    <GridView.Columns>
+
+
+                        <GridViewColumn  DisplayMemberBinding="{Binding esemenyIdopont }" Header="Esemény ideje" Width="100"></GridViewColumn>
+                        <GridViewColumn  DisplayMemberBinding="{Binding esemenyMegnevezes}" Header="Esemény Tárgya" Width="100"></GridViewColumn>
+                        <GridViewColumn  DisplayMemberBinding="{Binding esemenyHelyszin }" Header="Helyszín" Width="100"></GridViewColumn>
+                        <GridViewColumn  DisplayMemberBinding="{Binding esemenyKontakt }" Header="Kontakt Tel" Width="100"></GridViewColumn>
+                        <GridViewColumn  DisplayMemberBinding="{Binding esemenyIsIdozitoIdo }" Header="Időzítés" Width="100"></GridViewColumn>
+                    </GridView.Columns>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="mod" Content="Módosít" HorizontalAlignment="Left" Margin="609,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" IsEnabledChanged="mod_IsEnabledChanged_1" Background="#FFCFDEF8" FontFamily="Arial Rounded MT Bold" Height="22"/>
+        <Button x:Name="torl" Content="Törlés" HorizontalAlignment="Left" Margin="609,64,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2" IsEnabledChanged="torl_IsEnabledChanged" Background="#FFCFDEF8" FontFamily="Arial Rounded MT Bold" Height="20"/>
+        <Button Content="Kilépés" HorizontalAlignment="Left" Margin="609,331,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Background="#FFCFDEF8" FontFamily="Arial Rounded MT Bold" Height="22" RenderTransformOrigin="-0.113,0.6"/>
+
+    </Grid>
+</Window>
